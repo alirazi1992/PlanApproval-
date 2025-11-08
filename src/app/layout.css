@@ -1,0 +1,15 @@
+import "./globals.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "سامانه تأیید طرح و بررسی مدارک - مؤسسه رده‌بندی آسیا",
+  description: "Frontend for Design Approval & Document Review System - Asia Classification Society"
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="fa" dir="rtl">
+      <body>{children}</body>
+    </html>
+  );
+}
